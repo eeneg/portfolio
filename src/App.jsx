@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="container mx-auto max-w-7xl">
+      <div className="container mx-auto max-w-7xl text-white">
         <Navbar/>
         <Hero/>
       </div>
