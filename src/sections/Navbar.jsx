@@ -25,7 +25,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-full bg-primary/40 sm:text-lg sm:font-medium">
+    <div className="w-full sm:text-lg sm:font-medium">
       <div className="flex justify-between items-center py-4 px-8">
         <div className="">Gene</div>
         <div className="flex justify-center items-center gap-8">
