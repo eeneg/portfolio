@@ -8,7 +8,7 @@ function Navigation() {
       <a href="#" className="hover:text-lg hover:font-medium">Home</a>
     </li>
     <li className="">
-      <a href="#" className="hover:text-lg hover:font-medium">About</a>
+      <a href="#" className="hover:text-lg hover:font-medium">About me</a>
     </li>
     <li className="">
       <a href="#" className="hover:text-lg hover:font-medium">Services</a>
