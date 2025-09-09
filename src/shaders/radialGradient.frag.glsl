@@ -14,7 +14,7 @@ void main() {
     float dist = distance(vUv, uCenter);
 
     // Wavy ripple animation, more pronounced radial effect
-    float ripple = 0.3 * sin(10.0 * dist - uTime * 1.5 + vUv.x * 15.0 + vUv.y * 15.0);
+    float ripple = .3 * sin(10.0 * dist - uTime * 1.5 + vUv.x * 15.0 + vUv.y * 15.0);
 
     // Gradient (near-black center → grayish edge)
     float gradient = smoothstep(0.0, 1.2, dist + ripple);
